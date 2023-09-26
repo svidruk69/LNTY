@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(fone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    font-size: 20px;
+    font-family: monospace;
+    color: #fff;
+    background: linear-gradient(to left, #8E2DE2, #4A00E0, #8E2DE2);
+    text-decoration: none;
+    padding: 20px 70px;
+    border-radius: 10px;
+    background-size: 200%;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-position: right;
+}
