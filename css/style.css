@@ -3,6 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url(fone.png);
+    background-size: contain;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
